@@ -29,7 +29,7 @@
   font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
   font-style: italic;
   padding-top: 26px;
-  font-size: 25px;
+  font-size: 18px;
 }
 
 .links {
@@ -52,6 +52,7 @@ hr {
 
 h1 {
   font-family: 'Indie Flower', cursive;
+  font-size:64px;
 }
 
 h2 {
@@ -77,4 +78,23 @@ h2 {
 
 .about {
   font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+}
+
+@media (max-width: 750px) {
+  .footer-blurb {
+    text-align: left;
+  }
+}
+
+.modal {
+  font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+}
+
+h2 span {
+  color: #dddddd;
+  font-family: 'Indie Flower', cursive;
+}
+
+::selection {
+  background-color: #f84342;
 }
